@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Klee+One&display=swap");
+
+body {
+  background-color: #f3f3f3;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+li a {
+  text-decoration: none;
+  padding: 1em;
+  color: #707070;
+  font-weight: 700;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+.indexList {
+  padding: 3em;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.catNav {
+  font-size: 30px;
+  margin-top: 5em;
+}
+
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+.tshirt {
+  width: 100%;
+  justify-self: center;
+}
+
+.clothesGrid {
+  margin: 5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  row-gap: 20px;
+  column-gap: 2%;
+}
+
+.brandImg:hover {
+  transform: scale(1.1);
+}
+
+/* --------------------------------------------------------------------------- */
+
+nav {
+  margin-top: 10em;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  grid-template-rows: 1fr 50px 150px 100px;
+  column-gap: 30px;
+  margin: 4em;
+}
+
+hr {
+  border-top: 1px solid #707070;
+}
+.singleShirt {
+  width: 100%;
+}
+
+.hugoShirt {
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.prodInfo {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+h1 {
+  font-size: 20px;
+  color: #707070;
+}
+
+h2 {
+  font-size: 40px;
+  color: #494949;
+}
+
+h3 {
+  color: #707070;
+}
+
+aside {
+  grid-column-start: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40px 40px 40px;
+  column-gap: 20px;
+}
+
+.model {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.whiteTee {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.colour {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.white {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.inventoryNum {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.number {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.cart {
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+
+#size {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4e9849;
+  color: white;
+  border: none;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ------------------------------------------------------ */
+
+.productGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 30px;
+}
+
+.listPrice {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner1 {
+  position: absolute;
+  top: 35%;
+}
+
+.discount {
+  background: red;
+  color: white;
+  width: 90%;
+  padding: 5px 0 5px 5px;
+}
+
+.soldOut {
+  background: grey;
+  color: white;
+  padding: 5px;
+  width: 90%;
+}
+
+.gone {
+  opacity: 50%;
+}

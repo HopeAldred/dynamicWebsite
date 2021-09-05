@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Item</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="breadcrumb">
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="#">Brands</a></li>
+          <li class="brand"><a href="#">Hugo Boss</a></li>
+          <li class="productName">Hugo Boss Mens White Tee</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hugoShirt">
+        <img
+          src="/assets/anomaly-WWesmHEgXDs-unsplash.jpg"
+          class="singleShirt"
+          alt="tshirt"
+        />
+      </div>
+
+      <div class="prodInfo">
+        <h1>Hugo Boss Mens White Tee</h1>
+        <hr />
+        <h2>599kr</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+          ipsum dolor sit…
+        </p>
+      </div>
+
+      <h3>Product Information</h3>
+      <section>
+        <aside>
+          <p class="model">Model name:</p>
+          <p class="whiteTee">White Tee</p>
+          <p class="colour">Colour:</p>
+          <p class="white">White</p>
+          <p class="inventoryNum">Inventory Number:</p>
+          <p class="number">1172</p>
+        </aside>
+
+        <div class="cart">
+          <label for="size"></label>
+          <select name="size" id="size">
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+          </select>
+          <br /><br />
+          <button>Add to Cart</button>
+        </div>
+      </section>
+    </main>
+    <script src="productItem.js"></script>
+  </body>
+</html>
